@@ -60,3 +60,5 @@ h2{font-weight:800}h2 em{font-family:Arial,Helvetica,sans-serif;font-weight:800;
 .board-finale{background:#19231d;color:#fff;position:relative;isolation:isolate;overflow:hidden}.board-finale .eyebrow,.board-finale .intro{color:#c4e1cb}.board-closing-art{position:absolute;width:min(55%,640px);right:0;bottom:0;z-index:-1;opacity:.7}.board-finale .start{align-self:flex-start}
 @media(max-width:760px){.board-split,.board-vision,.board-roadmap{grid-template-columns:1fr}.board-closing-art{width:85%;opacity:.45}.board-vision .strategy-intro{margin-top:12px}}
 @media print{.board-chart,.board-stats,.board-roadmap,.board-finale{print-color-adjust:exact}}
+
+.commercial-player{margin:0;min-width:0;align-self:center;width:100%;color:#d5dfd7}.commercial-player video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#111713;border:1px solid #597061;border-radius:8px}.commercial-player figcaption{margin-top:14px;font-size:12px;font-weight:800;letter-spacing:1.4px}.commercial-player figcaption span{display:block;margin-top:5px;font-size:14px;font-weight:400;letter-spacing:0}@media(max-width:760px){.commercial-player{max-width:560px}}
